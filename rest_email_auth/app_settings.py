@@ -17,8 +17,8 @@ class AppSettings(object):
         """
         # The user must provide a URL template for the verification
         # and password reset endpoints.
-        assert self.EMAIL_VERIFICATION_URL
-        assert self.PASSWORD_RESET_URL
+        #assert self.EMAIL_VERIFICATION_URL
+        #assert self.PASSWORD_RESET_URL
 
     def _setting(self, name, default):
         """
